@@ -10,7 +10,8 @@ package clase3;
 import java.util.*;
 public class CLASe3 {
       
-    public static double PAGO(int HORAS, double pago_por_hora) {
+    public static double PAGO
+        (int HORAS, double pago_por_hora) {
     double pago=0;
     if(HORAS<=40){
         pago=HORAS*pago_por_hora;
